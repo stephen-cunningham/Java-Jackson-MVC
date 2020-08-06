@@ -1,0 +1,87 @@
+{
+	"events" :[{
+		"name": "Irish Rebellion of 1798",
+		"type": "conflict",
+		"year": 1798
+	},{
+		"name" : "Congress of Vienna",
+		"type" : "treaty",
+		"year" : 1814
+	},{
+		"name" : "World War I",
+		"year" : 1914,
+		"type" : "conflict",
+		"subevents" : [{
+			"name" : "Battle of Verdun",
+			"year" : 1916
+		},{
+			"name" : "Archduke assassination",
+			"year" : 1914
+		},{
+			"name" : "Armistice of Compiègne",
+			"type" : "treaty",
+			"year" : 1918
+		}]
+	},{
+		"name": "Easter Rising",
+		"type": "conflict",
+		"year": 1916
+	},{
+		"name" : "Partitioning of India",
+		"year" : 1947,
+		"type" : "treaty"
+	},{
+		"name" : "Dissolution of the Kingdom of Italy",
+		"year" : 1946,
+		"subevents" : [{
+			"name" : "Institutional Referendum of Italy",
+			"type" : "vote",
+			"year" : 1946
+			}]
+	},{
+		"name" : "The Great Famine",
+		"year" : 1845
+	},{
+		"name" : "Great Fire of London",
+		"year" : 1666,
+		"type" : "calamity"
+	},{
+		"name" : "First flight of the Concorde",
+		"year" : 1969
+	},{
+		"name": "Civil Rights Movement, north of Ireland",
+		"year": 1967,
+		"type": "demonstrations",
+		"subevents": [{
+			"name": "Civil Rights March",
+			"year": 1968,
+			"type": "demonstrations"
+		},{
+			"name": "Battle of the Bogside",
+			"year": 1969,
+			"type": "conflict"
+		},{
+			"name": "Bloody Sunday",
+			"year": 1972,
+			"type": "attrocity"
+		}]
+	},{
+		"name": "Cold War",
+		"year": 1947,
+		"type": "conflict",
+		"subevents":[{
+			"name": "Berlin Blockade",
+			"year": 1948
+		},{
+			"name": "Space Race",
+			"year": 1955
+		},{
+			"name": "Bay of Pigs Invasion",
+			"year": 1961,
+			"type": "conflict"
+		},{
+			"name": "Dissolution of the Soviet Union",
+			"year": 1991
+		}]
+	}]
+}
